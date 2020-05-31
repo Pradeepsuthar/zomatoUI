@@ -91,20 +91,25 @@ section .container .row .col .card .card-body p{
     cursor: pointer;
 }
 
-footer .row .col-3 h5{
+footer .container .row .col h5{
     font-size: 15px;
     color: rgb(66, 66, 66);
     font-weight: 600;
 }
 
-footer .row .col-3 ul li a{
-    font-size: 13px;
-    color: rgb(95, 95, 95);
+footer .container .row .col ul li{
+    line-height: 25px;
+}
+footer .container .row .col ul li a{
+    font-size: 14px;
+    color: rgb(109, 109, 109);
     text-decoration: none;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
 }
 
-footer .row .col-3 ul li a:hover{
-    font-size: 13px;
-    color: rgb(24, 24, 24);
+footer .container .row .col ul li a:hover{
+    font-size: 14px;
+    color: rgb(71, 71, 71);
 }
 
