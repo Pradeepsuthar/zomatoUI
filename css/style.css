@@ -1,12 +1,12 @@
 /* Hide scrollbar for Chrome, Safari and Opera */
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
-} */
+}
 
 /* Hide scrollbar for IE and Edge */
-/* body {
+body {
     -ms-overflow-style: none;
-} */
+}
 
 body{
     font-family: Okra,Helvetica,sans-serif;
@@ -28,6 +28,7 @@ button:focus{
     background-repeat: no-repeat; 
     background-size: cover;
     position: relative;
+    background-attachment: fixed;
 }
 
 .top-banner .container {
