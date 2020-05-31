@@ -132,4 +132,11 @@ footer .container .row .col ul li a:hover {
 		color: #696969;
 		line-height: 25px;
 	}
+	.top-banner {
+		height: 50vh;
+	}
+	nav ul {
+		margin-right: 150px;
+		margin-top: 10px;
+	}
 }
