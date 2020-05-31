@@ -94,22 +94,22 @@ section .container .row .col .card .card-body p{
 footer .container .row .col h5{
     font-size: 15px;
     color: rgb(66, 66, 66);
-    font-weight: 600;
+    font-weight: normal;
+    letter-spacing: 1.3px;
 }
 
 footer .container .row .col ul li{
     line-height: 25px;
 }
 footer .container .row .col ul li a{
-    font-size: 14px;
-    color: rgb(85, 84, 84);
+    font-size: 13px;
+    color: #696969;
     text-decoration: none;
     letter-spacing: 1.2px;
-    font-weight: lighter;
 }
+
 
 footer .container .row .col ul li a:hover{
-    font-size: 14px;
-    color: rgb(49, 49, 49);
+    font-size: 13px;
+    color: #3f3e3e;
 }
-
