@@ -134,7 +134,8 @@ footer .container .row .col ul li a:hover {
 		height: 50vh;
 	}
 	nav ul {
-		margin-right: 150px;
+		margin-right: 10px;
+		font-weight: 600;
 		margin-top: 10px;
 	}
 }
