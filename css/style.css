@@ -102,7 +102,7 @@ footer .container .row .col ul li{
 }
 footer .container .row .col ul li a{
     font-size: 14px;
-    color: rgb(109, 109, 109);
+    color: rgb(85, 84, 84);
     text-decoration: none;
     letter-spacing: 1.2px;
     font-weight: lighter;
@@ -110,6 +110,6 @@ footer .container .row .col ul li a{
 
 footer .container .row .col ul li a:hover{
     font-size: 14px;
-    color: rgb(71, 71, 71);
+    color: rgb(49, 49, 49);
 }
 
