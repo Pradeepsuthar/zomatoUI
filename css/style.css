@@ -28,7 +28,7 @@ button:focus{
     background-repeat: no-repeat; 
     background-size: cover;
     position: relative;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .top-banner .container {
@@ -51,11 +51,6 @@ button:focus{
     font-weight: 300;
 }
 
-@media (max-width: 1200px) {
-   .banner-title{
-       font-size: 20px;
-   }
-}
 
 nav ul {
     margin-right: 170px;
@@ -70,8 +65,14 @@ nav ul li a:hover{
     color: #cccccc;
 }
 
+.section-title{
+    font-size: 36px;
+    font-weight: lighter;
+}
 .section-desc{
-    font-size: 22px;
+    font-size: 20px;
+    color: #696969;
+    font-weight: lighter;
 }
 
 section .container .row .col .card{
@@ -112,4 +113,18 @@ footer .container .row .col ul li a{
 footer .container .row .col ul li a:hover{
     font-size: 13px;
     color: #3f3e3e;
+}
+
+@media (max-width: 1200px) {
+   .banner-title{
+       font-size: 20px;
+   }
+   .section-title{
+       font-size: 25px;
+   }
+   .section-desc{
+    font-size: 15px;
+    color: #696969;
+    line-height: 25px;
+}
 }
