@@ -8,6 +8,10 @@ body {
 	-ms-overflow-style: none;
 }
 
+.theme-color{
+	color: #ED5A6B;
+}
+
 body {
 	font-family: Okra, Helvetica, sans-serif;
 }
@@ -71,7 +75,7 @@ nav ul li a:hover {
 }
 
 .section-desc {
-	font-size: 20px;
+	font-size: 18px;
 	color: #696969;
 	font-weight: lighter;
 }
@@ -138,4 +142,31 @@ footer .container .row .col ul li a:hover {
 		font-weight: 600;
 		margin-top: 10px;
 	}
+}
+
+.avtar-profile{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.rounded-radius{
+	border-radius: 7px;
+}
+
+.input-group button:focus{
+	outline: 0;
+}
+
+.input-group input{
+	background-color: #fff;
+	padding: 25px 10px 25px;
+	font-size: 15px;
+}
+.input-group input, button:focus{
+	outline: none;
+}
+
+
+.app-reviews-container{
+	background-color: #FFFBF7;
 }
