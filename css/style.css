@@ -27,6 +27,14 @@ button:focus {
 	outline: none;
 }
 
+ul li .btn-group .dropdown-menu .nav-item-link{
+	color: #696969;
+	font-size: 16px;
+}
+ul li .btn-group .dropdown-menu .nav-item-link:hover{
+	color: #ff5400;
+}
+
 .top-banner {
 	background-image: url("../images/top-banner-img.jpg");
 	background-color: #fff;
@@ -264,3 +272,5 @@ nav ul li div span .dropdown-item:focus{
 	cursor: pointer;
 	background-color: #eb926611;
 }
+
+/* Search Input */
