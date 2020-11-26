@@ -8,8 +8,11 @@ body {
 	-ms-overflow-style: none;
 }
 
+.theme-bg-color{
+	background-color: #ff5400;
+}
 .theme-color{
-	color: #ED5A6B;
+	color: #ff5400;
 }
 
 body {
@@ -22,6 +25,14 @@ body {
 
 button:focus {
 	outline: none;
+}
+
+ul li .btn-group .dropdown-menu .nav-item-link{
+	color: #696969;
+	font-size: 16px;
+}
+ul li .btn-group .dropdown-menu .nav-item-link:hover{
+	color: #ff5400;
 }
 
 .top-banner {
@@ -44,8 +55,8 @@ button:focus {
 }
 
 .brand-logo {
-	width: 283px;
-	height: 60px;
+	width: 300px;
+	height: 70px;
 }
 
 .banner-title {
@@ -54,19 +65,19 @@ button:focus {
 	font-weight: 300;
 }
 
-nav ul {
-	margin-right: 170px;
-	margin-top: 10px;
-}
-
 nav ul li a {
-	color: #fff;
+	color: #ff5400;
 	font-size: 18px;
 	font-weight: 100;
 }
 
 nav ul li a:hover {
 	color: #cccccc;
+}
+
+#active{
+	background-color: #ff5400;
+	color: #fff;
 }
 
 .section-title {
@@ -119,10 +130,20 @@ footer .container .row .col ul li a {
 
 footer .container .row .col ul li a:hover {
 	font-size: 13px;
-	color: #3f3e3e;
+	color: #ff5400;
+}
+
+nav ul {
+	margin-right: 170px;
+	font-weight: 600;
+	margin-top: 10px;
 }
 
 @media (max-width: 1200px) {
+	.brand-logo {
+		width: 200px;
+		height: 50px;
+	}
 	.banner-title {
 		font-size: 20px;
 	}
@@ -170,3 +191,86 @@ footer .container .row .col ul li a:hover {
 .app-reviews-container{
 	background-color: #FFFBF7;
 }
+
+.bg-danger{
+	background-color: #ff5400;
+	color: #fff;
+}
+.btn-danger{
+	background-color: #ff5400;
+	color: #fff;
+}
+.btn-danger:hover{
+	background-color: #e44c00;
+	color: #fff;
+}
+.btn-danger:focus{
+	outline: none;
+	background-color: #e44c00;
+	color: #fff;
+}
+.text-danger{
+	color: #ff5400;
+}
+.text-danger:hover{
+	color: #e44c00;
+}
+
+nav ul li div span .dropdown-item:hover{
+	background-color: #f8f9fa;
+	color: #ff5400;
+}
+nav ul li div span .dropdown-item:focus{
+	background-color: #e44c00;
+	color: #fff;
+}
+
+/* Profile Page*/
+.cover-img{
+	height: 30vh;
+    position: relative;
+    margin-bottom: 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.13) 22.25%, rgba(0, 0, 0, 0.5) 55.5%) center center / cover no-repeat, url(../images/cover-img.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.user-profile-img{
+	width: 150px;
+	height: 150px;
+}
+.username{
+	font-size: 20px;
+}
+.user-location{
+	font-size: 16px;
+}
+
+@media (max-width: 1200px){
+	.cover-img{
+		height: auto;
+	}
+	.user-profile-img{
+		width: 100px;
+		height: 100px;
+	}
+	.username{
+		font-size: 17px;
+	}
+	.user-location{
+		font-size: 14px;
+	}
+}
+
+/* account */
+#menu-active{
+	border-left: 4px solid #ff5400;
+	background-color: #eb926611;
+}
+
+.menu-item:hover{
+	cursor: pointer;
+	background-color: #eb926611;
+}
+
+/* Search Input */

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- favicons -->
-    <link rel="icon" href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/foodmagic.png" sizes="32x32" type="image/png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -22,7 +22,7 @@
     <!-- font-awesome icons -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <title>Home | Zomato</title>
+    <title>FoodMagic</title>
 </head>
 
 <body>
@@ -32,133 +32,41 @@
             <a class="navbar-brand" href="#"></a>
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <div class="btn-group">
-                        <span> <img
-                                src="https://b.zmtcdn.com/data/user_profile_pictures/c47/92d231910ae67ace3c7e6ed6e362cc47.jpg?fit=around%7C400%3A400&crop=400%3A400%3B%2A%2C%2A"
-                                class="mr-1 avtar-profile" alt="avtar"> </span>
-                        <span>
-                            <button type="button"
-                                class="bg-transparent border-0 text-white font-weight-bold dropdown-toggle"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                pradeepsuthar
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right rounded-radius">
-                                <button class="dropdown-item" type="button">Profile</button>
-                                <button class="dropdown-item" type="button">Notifications</button>
-                                <button class="dropdown-item" type="button">Bookmarks</button>
-                                <button class="dropdown-item" type="button">Reviews</button>
-                                <button class="dropdown-item" type="button">Network</button>
-                                <button class="dropdown-item" type="button">Find friends</button>
-                                <button class="dropdown-item" type="button">Settings</button>
-                                <button class="dropdown-item" type="button">Logout</button>
-                            </div>
-                        </span>
-                    </div>
+                    <a class="nav-link cursor-pointer" data-toggle="modal" data-target="#loginModal">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link cursor-pointer" data-toggle="modal" data-target="#signUpModal">Signup</a>
                 </li>
             </ul>
         </nav>
         <div class="container text-center">
-            <h1 class="display-4 pb-4"><img src="images/zomato_logo.webp" alt="Brand Logo" class="brand-logo"></h1>
-            <h2 class="text-wrap banner-title pb-4">Discover the best food & drinks in Delhi NCR</h2>
-
-            <div class="d-none d-md-block">
-                <div class="d-flex justify-content-between">
-                    <div class="px-5"></div>
-                    <div class="input-group mb-3 text-center px-5">
-                        <div class="input-group-prepend">
-                            <button class="btn bg-white dropdown-toggle border-right rounded-radius" type="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <svg class="bi bi-geo-alt theme-color" width="1.5em" height="1.5em" viewBox="0 0 16 16"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                                </svg> <span class="pr-5">Rajasthan, India</span></button>
-                            <div class="dropdown-menu rounded-radius">
-                                <a class="dropdown-item theme-color py-3 border-bottom" href="#"><svg class="bi bi-geo"
-                                        width="1.3em" height="1.3em" viewBox="0 0 16 16" fill="currentColor"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M11 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                                        <path d="M7.5 4h1v9a.5.5 0 0 1-1 0V4z" />
-                                        <path fill-rule="evenodd"
-                                            d="M6.489 12.095a.5.5 0 0 1-.383.594c-.565.123-1.003.292-1.286.472-.302.192-.32.321-.32.339 0 .013.005.085.146.21.14.124.372.26.701.382.655.246 1.593.408 2.653.408s1.998-.162 2.653-.408c.329-.123.56-.258.701-.382.14-.125.146-.197.146-.21 0-.018-.018-.147-.32-.339-.283-.18-.721-.35-1.286-.472a.5.5 0 1 1 .212-.977c.63.137 1.193.34 1.61.606.4.253.784.645.784 1.182 0 .402-.219.724-.483.958-.264.235-.618.423-1.013.57-.793.298-1.855.472-3.004.472s-2.21-.174-3.004-.471c-.395-.148-.749-.336-1.013-.571-.264-.234-.483-.556-.483-.958 0-.537.384-.929.783-1.182.418-.266.98-.47 1.611-.606a.5.5 0 0 1 .595.383z" />
-                                    </svg> Detect current location</a>
-                                <a class="dropdown-item theme-color py-3 border-bottom" href="#"><svg class="bi bi-plus"
-                                        width="1.3em" height="1.3em" viewBox="0 0 16 16" fill="currentColor"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z" />
-                                        <path fill-rule="evenodd"
-                                            d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z" />
-                                    </svg> Add Address</a>
-                                <a class="dropdown-item disabled border-0 mb-2" href="#">Popular Locations</a>
-                                <!-- <div role="separator" class="dropdown-divider"></div> -->
-                                <a class="dropdown-item border-0" href="#">Bhuwana, Udaipur</a>
-                            </div>
-                        </div>
-                        <input type="text" class="form-control rounded-radius"
-                            placeholder="Search for restaurant, cuisine or a dish">
-                    </div>
-                    <div class="px-5"></div>
-                </div>
-            </div>
-
+            <h1 class="display-4 pb-md-4"><img src="images/foodmagic-white-logo.png" alt="Brand Logo" class="brand-logo">
+            </h1>
+            <h2 class="text-wrap banner-title">Find the best restaurants, cafés <br>and bars in India
+            </h2>
         </div>
     </div>
 
     <!-- Section-1 -->
     <section class="jumbotron jumbotron-fluid my-0 bg-white">
         <div class="container px-md-5 mx-auto">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                    <div class="col mb-2">
-                        <div class="card p-0 rounded-radius">
-                            <img src="https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png?output-format=webp"
-                                class="card-img-top">
-                            <div class="card-body">
-                                <h4>Order Food Online</h4>
-                                <p class="my-auto section-desc">Stay home and order to your doorstep</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-2">
-                        <div class="card p-0 rounded-radius">
-                            <img src="https://b.zmtcdn.com/webFrontend/95f005332f5b9e71b9406828b63335331585809309.png?output-format=webp"
-                                class="card-img-top">
-                            <div class="card-body">
-                                <h4>Go out for a meal</h4>
-                                <p class="my-auto section-desc">View the city's favourite dining venues</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-2">
-                        <div class="card p-0 rounded-radius">
-                            <img src="https://b.zmtcdn.com/webFrontend/b256d0dd8a29f9e0623ecaaea910534d1585809352.png?output-format=webp"
-                                class="card-img-top">
-                            <div class="card-body">
-                                <h4>Zomato Gold</h4>
-                                <p class="my-auto section-desc">Enjoy limitless dining privileges</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="jumbotron jumbotron-fluid my-0 bg-white">
-        <div class="container px-md-5 mx-auto">
             <div class="flex flex-col text-center w-full">
-                <h2 class="section-title">
-                    Popular localities in and around Udaipur
+                <h2 class="section-title mb-4">
+                    Popular locations in <span><img
+                            src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp" width="45"
+                            height="30"></span> India
                 </h2>
+                <p class="section-desc">
+                    From swanky upscale restaurants to the cosiest hidden gems serving the most incredible food, Zomato
+                    covers it all. Explore menus, and millions of restaurant photos and reviews from users just like
+                    you, to find your next great meal.
+                </p>
             </div>
         </div>
     </section>
 
     <!-- Section-2 -->
     <section class="jumbotron jumbotron-fluid my-0 bg-white pt-0">
-        
         <div class="container px-md-5 mx-auto">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
                 <div class="col mb-2">
@@ -201,30 +109,73 @@
         </div>
     </section>
 
+    <!-- Section-1 -->
+    <section class="jumbotron jumbotron-fluid my-0 bg-white">
+        <div class="container px-md-5 mx-auto">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                    <div class="col mb-2">
+                        <div class="card p-0 rounded-radius">
+                            <img src="https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png?output-format=webp"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h4>Order Food Online</h4>
+                                <p class="my-auto section-desc">Stay home and order to your doorstep</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card p-0 rounded-radius">
+                            <img src="https://b.zmtcdn.com/webFrontend/95f005332f5b9e71b9406828b63335331585809309.png?output-format=webp"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h4>Go out for a meal</h4>
+                                <p class="my-auto section-desc">View the city's favourite dining venues</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card p-0 rounded-radius">
+                            <img src="https://b.zmtcdn.com/webFrontend/b256d0dd8a29f9e0623ecaaea910534d1585809352.png?output-format=webp"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h4>Zomato Gold</h4>
+                                <p class="my-auto section-desc">Enjoy limitless dining privileges</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps Reviews -->
     <section class="jumbotron jumbotron-fluid my-0 app-reviews-container">
         <div class="container">
             <div class="row">
                 <div class="col col-xsm-6 col-6 col-lg-6 col-md-6 col-xl-6 col-sm-12 d-none d-md-block text-center">
-                  <img src="https://b.zmtcdn.com/web/home/dining/2c17b1c302656ee6d434bff811442f8c1588271130.png" width="250px" height="450px">
+                    <img src="https://b.zmtcdn.com/web/home/dining/2c17b1c302656ee6d434bff811442f8c1588271130.png"
+                        width="250px" height="450px">
                 </div>
                 <div class="col col-xsm-12 col-12 col-lg-6 col-md-6 col-xl-6 col-sm-12 pt-4">
-                  <h1>Get the Zomato App</h1>
-                  <p class="lead">We will send you a link, open it on your phone to download the app</p><br>
-                  <p>Download app from</p>
-                  <img src="https://www.freepnglogos.com/uploads/app-store-logo-png/google-play-and-apple-app-store-logos-22.png" width="300" height="50">
+                    <h1>Get the Zomato App</h1>
+                    <p class="lead">We will send you a link, open it on your phone to download the app</p><br>
+                    <p>Download app from</p>
+                    <img src="https://www.freepnglogos.com/uploads/app-store-logo-png/google-play-and-apple-app-store-logos-22.png"
+                        width="300" height="50">
 
                 </div>
-              </div>
+            </div>
         </div>
-      </section>
+    </section>
 
     <!-- Footer -->
     <div class="jumbotron jumbotron-fluid my-0 bg-light">
         <footer class="container">
             <div class="row">
                 <div class="col-12 col-md pb-md-4">
-                    <img class="mb-2" src="https://b.zmtcdn.com//data/bdddded729eec1881d992117920afa5f1553759845.png"
-                        width="130" height="30">
+                    <img class="mb-2" src="images/pure_dark_foodmagic_logo.png" width="130" height="30">
                     <small class="d-block mb-3 text-muted">&copy; 2008-2020</small>
                 </div>
                 <div class="container">
@@ -322,7 +273,7 @@
                         </div>
                         <input type="text" class="form-control form-control-lg" placeholder="Email">
                     </div>
-                    <button type="button" class="btn btn-danger rounded btn-block">Send One Time Password</button>
+                    <a class="btn btn-danger rounded btn-block" href="home.html">Send One Time Password</a>
                     <div class="my-4">
                         <hr>
                         <p>New to Zomato? <a class="cursor-pointer text-danger">Create account</a></p>
